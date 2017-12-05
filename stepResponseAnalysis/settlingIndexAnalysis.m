@@ -19,7 +19,7 @@ function [ settlingIndex ] = settlingIndexAnalysis( data, settlingPercent,  star
 % Created by: Ian McInerney
 % Created on: September 21, 2016
 % Version: 1.0
-% Last Modified: September 21, 2013
+% Last Modified: September 21, 2016
 %
 % Revision History:
 %   1.0 - Initial Release
