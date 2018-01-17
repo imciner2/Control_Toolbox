@@ -1,5 +1,5 @@
-function [ A, B ] = sys_SpringMass( n, varargin )
-%SYS_SPRINGMASS Generate the CT system matrices for a Spring-Mass system
+function [ A, B ] = sysc_SpringMass( n, varargin )
+%SYSC_SPRINGMASS Generate the CT system matrices for a Spring-Mass system
 %
 % Generate the continuous-time system A and B matrices for a spring-mass
 % system that takes the form of:
@@ -17,9 +17,9 @@ function [ A, B ] = sys_SpringMass( n, varargin )
 %
 %
 % Usage:
-%   [ A, B ] = sys_SpringMass( n );
-%   [ A, B ] = sys_SpringMass( n, k );
-%   [ A, B ] = sys_SpringMass( n, k, m );
+%   [ A, B ] = sysc_SpringMass( n );
+%   [ A, B ] = sysc_SpringMass( n, k );
+%   [ A, B ] = sysc_SpringMass( n, k, m );
 %
 % Inputs:
 %   n - The number of masses
@@ -29,8 +29,8 @@ function [ A, B ] = sys_SpringMass( n, varargin )
 %       can be provided. The default is m=1.
 %
 % Outputs:
-%   A - The state transition matrix for the system.
-%   B - The input matrix for the system
+%   A - The CT state transition matrix for the system.
+%   B - The CT input matrix for the system
 %
 %
 % Created by: Ian McInerney
